@@ -1,1 +1,1 @@
-# app_appointments
+# app-appointments

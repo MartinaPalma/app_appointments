@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Baloo 2', sans-serif;
+    margin: 0;
+    background-color: lightskyblue;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: white;
+    margin-top: 15px;
+    padding-top: 60px;
+    text-align: center;
+}
+
+header {
+    position: fixed;
+    background-color: white;
+    left: 0;
+    top: 0;
+    right: 0;
+    box-shadow: 0 2px 32px rgba(0, 0, 0, 0.5);
+    height: 60px;
+    display: flex;
+    padding: 0 10px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 2em;
+    letter-spacing: -0.1em;
+    height: 60px;
+}
+
+.logo img {
+    height: 100%;
+}
+
+nav {
+    margin-left: auto;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+nav li {
+    padding: 16px;
+}
+
+nav a {
+    color: black;
+}
+
+nav a:hover {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+h2 {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin: 20px;
+    padding: 15px;
+}
+
+main {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    padding: 9px 9px;
+    background-color: white;
+    color: lightskyblue;
+    font-size: 13px;
+    transition: all 250ms;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 0;
+    font-weight: 700;
+    margin: 15px;
+    box-shadow: 0 2px 32px rgba(0, 0, 0, 0.1);
+}
+
+
+/* container account  */
+
+.container {
+    background-color: whitesmoke;
+    margin: 10px;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+}
+
+.account {
+    width: 300px;
+    background-color: lightblue;
+    margin: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+.account:focus {
+    box-shadow: none;
+    outline: 0;
+}
+
+.account:hover {
+    background-color: white;
+}
+
+.account.is-completed {
+    background-color: white;
+    border: 2px solid lightskyblue;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+.button:focus {
+    box-shadow: none;
+    outline: 0;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons>button {
+    margin: 0 10px;
+}
